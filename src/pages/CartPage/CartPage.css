@@ -1,0 +1,116 @@
+
+.cart-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--white);
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.cart-page h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.cart-page p {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.cart-items {
+  margin-bottom: 2rem;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--light-gray);
+  padding: 1rem 0;
+}
+
+.item-details h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+.item-details p {
+  margin: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.item-quantity button {
+  background-color: var(--light-gray);
+  border: 1px solid var(--light-gray);
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.item-quantity button:hover {
+  background-color: #d0d0d0;
+}
+
+.item-quantity span {
+  margin: 0 0.8rem;
+  font-weight: bold;
+}
+
+.item-total p {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.item-total button {
+  background-color: #dc3545; /* Red for remove */
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.item-total button:hover {
+  background-color: #c82333;
+}
+
+.cart-summary {
+  text-align: right;
+  border-top: 2px solid var(--primary-color);
+  padding-top: 1.5rem;
+  margin-top: 2rem;
+}
+
+.cart-summary h3 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.cta-button:hover {
+  background-color: #3A008C;
+}
