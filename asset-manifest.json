@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mousemuse/static/css/main.37034053.css",
+    "main.js": "/mousemuse/static/js/main.fad20527.js",
+    "static/js/453.e336f518.chunk.js": "/mousemuse/static/js/453.e336f518.chunk.js",
+    "index.html": "/mousemuse/index.html",
+    "main.37034053.css.map": "/mousemuse/static/css/main.37034053.css.map",
+    "main.fad20527.js.map": "/mousemuse/static/js/main.fad20527.js.map",
+    "453.e336f518.chunk.js.map": "/mousemuse/static/js/453.e336f518.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37034053.css",
+    "static/js/main.fad20527.js"
+  ]
+}
